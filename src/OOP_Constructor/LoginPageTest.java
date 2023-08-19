@@ -14,6 +14,8 @@ public class LoginPageTest {
 		
 		lp2.resetPwd();
 		
+		System.out.println("****************");
+		
 		
 	}
 

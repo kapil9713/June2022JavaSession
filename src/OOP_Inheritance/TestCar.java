@@ -11,7 +11,7 @@ public class TestCar {
 		b.autoParking(); //individual
 		b.billing();
 		Car.billing();
-		BMW.billing();
+		BMW.billing();  
 		BMW.display();
 		b.running();
 		b.payment("kapil9713@");
@@ -45,11 +45,14 @@ public class TestCar {
 		
 		System.out.println("-------------");
 		Vehicle v= new BMW();
+		//Vehicle v1= new Vehicle();
 		v.engine();
 		v.petrolEngine();
 		//b.petrolEngine();
 		//c.petrolEngine();
-		b.Start();
+		//b.Start();
+		
+		System.out.println("------------");
 		
 		
 		//down casting
